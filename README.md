@@ -17,7 +17,7 @@
 
 `visual-acceptance-check` 解决“开发页面和设计稿到底差在哪、差多少”的问题。它不靠肉眼估算，而是：
 
-- 从 **MasterGo 链接** 拉取 DSL，提取设计基准（尺寸 / Token / 组件 / 图标）；
+- 从 **Figma/MasterGo 链接** 拉取 DSL，提取设计基准（尺寸 / Token / 组件 / 图标）；
 - 用 **CDP（Chrome DevTools Protocol）** 精确抽测开发页面的间距、圆角、阴影、字体；
 - 按 24 项视觉检查点逐条判定，输出可追溯的扣分明细与 **像素级 bbox 标注**；
 - 一键生成 HTML 验收报告（设计侧链接 + 开发侧标注图并排展示）。
